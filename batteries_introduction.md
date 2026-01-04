@@ -296,7 +296,7 @@ U = U₀ - I * R
 ## 🔄 Energy Loss Visualization
 
 - During charge/discharge, the area between the charge and discharge curves represents energy loss due to internal resistance and inefficiencies.
-
+ ![EnergyLossGraph](image/BatteryChargeDischarge.png) 
 
 ⚡ Summary
 - Supercapacitors respond linearly to constant current, making them predictable but less energy-efficient.
