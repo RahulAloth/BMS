@@ -277,3 +277,10 @@ Automotive PSoC devices provide a **flexible, mixed‑signal, safety‑compliant
 Together, they form a powerful foundation for **safe, secure, and scalable EV battery architectures**.
 
 ---
+
+# PSoC is one of the leading automotive chips because of its architecture and features.
+# Architecture diagrams from Infineon:
+
+[Portfolio](image/Portfolio.png)
+
+
