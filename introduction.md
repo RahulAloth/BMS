@@ -171,3 +171,74 @@ The structural enclosure protects the battery from damage and provides protectio
 
 
 -  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Check how battery is charging when connected with Series Or Parallel how voltage is getting added up.
+## Cell Monitoring Board - CMB
+ - It measures the Cell voltages
+ - CMB 16 means it monitor voltages of 16 Cells.
+ - Another functionality of CMB is Balancing functionality It ensure all batteries are of same voltage. 
+ - Dissipate heating resistance using a MOSFET Switch
+ - Temperature of the Battery is also an important things to measure to measure precisly, 10-16 Degree celsious is ideal for battery to operate otherwise it ages fast .
+ - Charge Current Limit vs Temperature
+ - Draw a graph with Y axis Charge current and X axis Module Temperature
+ - why is that, Anode, which is there in the Lithium Ion in  the process of charging can occure lithium plating that means the ions are not going into the Anode that can lead to cell deterioration.
+ - During fast charging, the temperature has to be in the optimal range to make it right charge.
+ - Same case with too hot.
+
+## What is a State of Charge Algorithm
+   OCV( Open Circuit Voltage) vs SOC . If the battery is in equilibirium , we can measure OCV to determine the state of charge .
+   Foram factor of the CMB is also an important factor
+   There are different ways to make CMB to make cost effective and easy to mount.
+   Actuators and Sensors in the field of battery.
+   PyroTecnical disconnection device.
+   Cloud based battery management system
+   Financed by the cash flow operations.
+   Grow inline with what we can afford.
+   Lot of ownership
+   Full stack development from lower level to upto
+   Highly integrated sophesticated battery management systems, Greate SOX algorithms, Good software Architecture Combined that with smart system integration thoughts
+   What are some challenges:
+   There are cost efficieny, Safety point of view... To apply the technology with trucks to make it robust. 1000 W Truck will have electrical surge .... How to avoid surges is one challenging topic. High voltage Pre Charge BMS has to be protect to survive peak voltage.
+   Cost effective battery pack.
+   Europe and US has a good Ecosystem for BMS.
+   BMS highest cybersecurity and safety standards lead by example. Dont shoot for the compramise, safety and reliability.
+   Smart Battery Sensor . Fully configurable software stack. Over the Air update. ASIL D Safty goal. Integrated dual shut current sensor. Short circuit detection in 150 MicroSecond. 500 A Continous current sensing. Pyro fuse Trigger . Back Up Capacitor ASIL D.
+
+   Upto 1500 V pack operating voltage . IP5K3 housing . Smart Battery Sensor Stationary for 1500 V.
+   CMB : Cell Monioring board.
+   Upto 64 Cells per CMB. 1500 V compatable . 
+   
+
+Specialization Lecture 5: Electrical Storage Systems, Supercapacitors, Battery Cells
+Content 
+Electrical storage systems, Supercapacitors  
+Capacitors - batteries
+Supercapacitors (electric double-layer capacitors)
+Charge and discharge with constant current
+
+Fundamentals of battery cells  
+Electrochemistry 
+Electrochemical energy storage - batteries 
+Standard electrode potential 
+Electrochemical energy storage - terms
+Battery lifetime
+
