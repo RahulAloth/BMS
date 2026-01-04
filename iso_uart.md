@@ -273,12 +273,23 @@ It is a key technology used in:
 Together, they enable **safe, robust, and scalable** communication inside high‑voltage battery packs.
 
 ---
+# Architecture diagrams from Infineon:
 
-OperationPrinciplesISOUART
-iso_UART_Configurations
-isoUART
-DaisyChainConnections_iso_UART
-HighlevelDiagram
+
+
+ ![isoUART](image/isoUART.png)
+ ---
+ ![Operation Principles iso-UART](image/OperationPrinciplesISOUART.png)
+ ---
+ ![iso UART Configurations](image/iso_UART_Configurations.png)
+ ---
+  ![Daisy Chain Connections iso-UART](image/DaisyChainConnections_iso_UART.png)
+ ---
+  ![High level Diagram PSoC](image/HighlevelDiagram.png)
+ ---
+
+
+
 
 
 
