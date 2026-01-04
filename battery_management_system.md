@@ -38,11 +38,14 @@ Lithium‑ion cells come in **three major formats**:
 
 ## 1) 🔵 Cylindrical Cells
 
-markdown
+
+```text
+
  /      \
 |  ====  |  ← Jelly‑roll winding
  \______/
 
+```
 
 **Advantages**
 - Manufactured at high throughput  
@@ -55,11 +58,12 @@ markdown
 
 ## 2) 🟦 Prismatic Cells
 
+```text
 +------------------+
 |   Active Material |
 |   (stacked)       |
 +------------------+
-
+```
 
 **Advantages**
 - Good heat dissipation  
@@ -72,10 +76,11 @@ markdown
 
 ## 3) 🟧 Pouch Cells
 
+```text
 +----------------------+
 |  Soft Aluminum Pouch |
 +----------------------+
-
+```
 
 **Advantages**
 - Lightweight  
@@ -90,8 +95,9 @@ markdown
 
 Cells are grouped into **modules**:
 
+```text
 [Cell][Cell][Cell][Cell] → Module
-
+```
 
 Modules include:
 - Mechanical housing  
@@ -110,8 +116,9 @@ Modules include:
 
 A pack contains **multiple modules** plus all supporting systems:
 
+```text
 [Module][Module][Module][Module] → PACK
-
+```
 
 A complete pack includes:
 
@@ -138,12 +145,12 @@ Here are the main cooling technologies:
 
 ## 1) 🟦 Base Plate Cooling (Bottom Cooling)
 
-
+```text
 [Cells]
 ↑
 |  small contact area
 [Cooling Plate]
-
+```
 
 **Pros**
 - Cheap  
@@ -159,11 +166,11 @@ Here are the main cooling technologies:
 
 ## 2) 🟩 Hose Cooling (Coolant Tubes)
 
-
+```text
 Cells
 | | | |
 ( O O O ) ← coolant hoses
-
+```
 
 **Pros**
 - Very flexible layout  
@@ -179,9 +186,9 @@ Cells
 
 ## 3) 🟥 Cooling Plates Between Cells
 
-
+```text
 [Cell] |Plate| [Cell] |Plate| [Cell]
-
+```
 
 **Pros**
 - Maximum cooling performance  
@@ -258,9 +265,9 @@ It ensures:
 ## 🧩 BMS Architecture
 
 
-
+```text
 [Cell Sensors] → [BM Slave] → [BM Master] → Vehicle ECU
-
+```
 
 ### BM Slave
 - Measures cell voltages  
@@ -305,7 +312,7 @@ Battery temperature strongly affects charging.
 ### ASCII graph (conceptual)
 
 
-
+```text
 Charge Current
 ^
 |        ________
@@ -314,7 +321,7 @@ Charge Current
 |
 +----------------------------> Temperature
 Cold     Optimal     Hot
-
+```
 
 ---
 
@@ -355,7 +362,7 @@ SOH decreases due to:
 
 # 🧱 Battery Pack Components (Full List)
 
-
+```text
 
 +--------------------------------------------------+
 | BUSBARS              → electrical connections    |
@@ -367,7 +374,7 @@ SOH decreases due to:
 | THERMAL CONNECTION   → coolant interfaces        |
 | MODULES              → groups of cells           |
 +--------------------------------------------------+
-
+```
 
 ---
 
@@ -383,10 +390,11 @@ Capacity stays same
 
 ### Parallel (increase capacity)
 
-
+```text
 [Cell]
 [Cell]
 [Cell]
+```
 Voltage same
 Capacity adds up
 
