@@ -463,6 +463,27 @@ Never cut costs on these two components.
 
 ---
 
+Once a battery leaves its safe operating window, the reaction becomes unstoppable.
+
+Temperatures can exceed **400°C**, making extinguishing extremely difficult.
+
+Preventing such hazards is the job of:
+
+- **Battery Management System (BMS)**  
+- **Thermal Management System (TMS)**  
+
+But these systems also handle many other tasks beyond fire prevention.
+
+---
+Lithium‑ion battery systems require:
+
+- A **Battery Management System (BMS)**  
+- A **Thermal Management System (TMS)**  
+
+These ensure the battery operates safely and efficiently.
+
+
+
 # 🧠 Battery Management System (BMS)
 
 The BMS is the **brain** of the battery.
