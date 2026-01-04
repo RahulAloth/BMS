@@ -281,6 +281,23 @@ Together, they form a powerful foundation for **safe, secure, and scalable EV ba
 # PSoC is one of the leading automotive chips because of its architecture and features.
 # Architecture diagrams from Infineon:
 
+
+
+ ![Portfolio](image/Portfolio.png)
+ ---
+ ![Applications of PSoC](image/Applications_of_PsOC.png)
+ ---
+ ![key features](image/Architecture.png)
+ ---
+ ![HighlevelDiagram](image/HighlevelDiagram.png)
+ ---
+ ![Application IntelligentBatterySensing](image/IntelligentBatterySensing.png)
+ ---
+ ![Products available ](image/Automotive_PsOCs.png)
+
+ 
+ 
+ 
 [Portfolio](image/Portfolio.png)
 
 
