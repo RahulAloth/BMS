@@ -679,3 +679,7 @@ Lithium-ion cells degrade over time due to:
 
 ---
 
+ ![Charge and Discharge](image/Electrolyte.png) 
+
+
+ ![Thermal voltage vs Capacity](image/charge_discharge.png) 
