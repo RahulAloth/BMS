@@ -683,3 +683,49 @@ Lithium-ion cells degrade over time due to:
 
 
  ![Thermal voltage vs Capacity](image/charge_discharge.png) 
+
+
+
+# 🔋 Lead-Acid Battery — Theory & Internal Resistance
+
+## 1. Nominal Voltage
+
+- Each lead-acid cell has a nominal voltage:
+  UN = 2 V
+
+- A starting battery has 6 cells in series:
+  Total voltage = 6 × 2 V = 12 V
+
+- Standard: EN 50342
+
+---
+
+## 2. Internal Resistance (Ri)
+
+Internal resistance is the sum of:
+- Electrode resistance
+- Connector resistance
+- Contact resistance between electrode and electrolyte
+- Ion transport resistance in electrolyte
+
+Typical range:
+Ri = 5 ... 30 mΩ
+
+Ri increases when:
+- Temperature decreases
+- Battery is discharged
+
+---
+
+## 3. Gassing Voltage
+
+Gassing begins when charging voltage exceeds:
+2.40 ... 2.45 V per cell
+
+Effects:
+- Water loss
+- Hydrogen + oxygen gas formation (oxyhydrogen)
+
+---
+
+---
