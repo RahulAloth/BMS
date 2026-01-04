@@ -298,9 +298,6 @@ U = U₀ - I * R
 - During charge/discharge, the area between the charge and discharge curves represents energy loss due to internal resistance and inefficiencies.
 
 
-![Charge and discharge graph](images/BatteryChargeDischarge.png)
-
-
 ⚡ Summary
 - Supercapacitors respond linearly to constant current, making them predictable but less energy-efficient.
 - Batteries maintain voltage better but degrade faster and have slower charge/discharge rates.
