@@ -296,20 +296,9 @@ U = U₀ - I * R
 ## 🔄 Energy Loss Visualization
 
 - During charge/discharge, the area between the charge and discharge curves represents energy loss due to internal resistance and inefficiencies.
-```text
-Voltage [V]
-|
-|         Battery Cell
-|        ┌─────────────┐
-|        │             │
-|        │             │
-|        │             │
-|        └─────────────┘
-|        Supercapacitor
-|       /             \
-|      /               \
-|_____/_________________\__________ Time / Charge [s / C]
-```
+
+
+![Charge and discharge graph](images/BatteryChargeDischarge.png)
 
 
 ⚡ Summary
