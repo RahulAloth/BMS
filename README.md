@@ -33,6 +33,8 @@ By exploring this repository, you will learn to:
 ---
 
 ## 📂 Repository Structure
-├── batteries_introduction.md     ← Cell → Module → Pack, cell formats, safety
-└── battery_management_system.md  ← BMS deep dive, CMB, SOC/SOH, protection
+- [batteries_introduction](./batteries_introduction.md)
+- [more_about_batteries](./more_about_batteries.md)
+- [battery_management_system](./battery_management_system.md)
 
+	
