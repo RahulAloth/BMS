@@ -22,8 +22,11 @@ But EVs require **hundreds to thousands** of cells.
 
 Here is the hierarchy:
 
+```text
+
 [ Cell ] → [ Module ] → [ Pack ]
 
+```
 
 ### Why this structure?
 - A single cell cannot power a vehicle  
@@ -31,6 +34,185 @@ Here is the hierarchy:
 - Packs integrate electronics, cooling, safety, and structure  
 
 ---
+# 🔋 Single Lithium‑Ion Cell — Fundamentals
+
+A lithium‑ion cell is the **smallest functional unit** of the entire battery system.  
+Every module, pack, BMS function, and safety mechanism ultimately depends on how a single cell behaves.
+
+---
+
+## 🧱 1. Structure of a Lithium‑Ion Cell
+
+A typical Li‑ion cell contains:
+
+- **Anode** (usually graphite)
+- **Cathode** (NMC, LFP, NCA, LCO, etc.)
+- **Separator** (microporous polymer)
+- **Electrolyte** (Li‑salt in organic solvent)
+- **Current collectors**  
+  - Copper (anode)  
+  - Aluminum (cathode)
+
+### Cross‑Section Diagram
+
+
+```text
++-------------------------------+
+|        Aluminum Foil         | ← Cathode current collector
+|  Cathode Active Material     |
++-------------------------------+
+|           Separator          |
++-------------------------------+
+|  Anode Active Material       |
+|        Copper Foil           | ← Anode current collector
++-------------------------------+
+
+```
+
+---
+
+## 🔄 2. Rocking‑Chair Mechanism (How It Works)
+
+Lithium‑ion cells operate using **intercalation**, not plating.
+
+### During Discharge (powering the vehicle)
+
+```text
+Li+ moves: Anode → Cathode
+Electrons: Anode → External circuit → Cathode
+
+```
+
+### During Charge
+
+```text
+Li+ moves: Cathode → Anode
+Electrons: Cathode → External circuit → Anode
+
+```
+
+
+```text
+
+CHARGE:
+Li+ →→→ (through electrolyte)
+e-  ←←← (through external circuit)
+
+```
+
+
+```text
+DISCHARGE:
+Li+ ←←← (through electrolyte)
+e-  →→→ (through external circuit)
+
+
+```
+---
+
+## ⚡ 3. Voltage Characteristics
+
+A single Li‑ion cell typically operates between:
+
+```text
+2.5 V  → empty
+3.6–3.7 V → nominal
+4.2 V → fully charged
+
+```
+
+Different chemistries vary slightly (LFP, NMC, NCA, etc.).
+
+---
+
+## 🌡️ 4. Temperature Sensitivity
+
+Li‑ion cells are extremely temperature‑dependent.
+
+- Too cold → lithium plating during charging  
+- Too hot → accelerated aging, gas formation  
+- Ideal range → **10°C to 35°C**
+
+This is why the **TMS** is essential.
+
+---
+
+## 🧪 5. Aging Mechanisms Inside a Single Cell
+
+Aging begins at the **cell level**, long before modules or packs.
+
+Main degradation mechanisms:
+
+- SEI layer growth  
+- Loss of cyclable lithium  
+- Particle cracking  
+- Electrolyte decomposition  
+- Increased internal resistance  
+- Gas formation  
+- Loss of active material  
+
+### Aging Concept
+
+```text
+
+Fresh Cell:
+[Particles][Particles][Particles]
+
+Aged Cell:
+[Particles]   [Broken]   [Isolated]#
+
+```
+
+---
+
+## 🔥 6. Failure Modes of a Single Cell
+
+A single cell can fail due to:
+
+- Internal short circuit  
+- Separator damage  
+- Overcharge  
+- Over‑discharge  
+- Overheating  
+- Manufacturing defects  
+
+A single cell failure can propagate to:
+
+
+Cell → Module → Pack → Vehicle
+
+
+This is why BMS + TMS are critical.
+
+---
+
+## 🧩 7. Why Understanding a Single Cell Matters
+
+Everything in the battery system is built on top of the cell:
+
+Cell behavior → Module behavior → Pack behavior → Vehicle performance
+
+
+The BMS monitors each cell because:
+
+- One weak cell limits the entire pack  
+- One hot cell can trigger thermal runaway  
+- One overcharged cell can fail catastrophically  
+
+---
+
+# ✅ Summary
+
+A single lithium‑ion cell is a **complex electrochemical system** that:
+
+- Stores energy through intercalation  
+- Requires strict voltage, current, and temperature limits  
+- Ages due to chemical and mechanical processes  
+- Must be monitored individually by the BMS  
+- Forms the foundation of modules and packs  
+
+Understanding the cell is essential before understanding the entire EV battery system.
+
 
 # 🧱 Battery Cells
 
