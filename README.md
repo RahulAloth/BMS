@@ -37,6 +37,35 @@ By exploring this repository, you will learn to:
 - [more_about_batteries](./more_about_batteries.md)
 - [battery_management_system](./battery_management_system.md)
 
+
+---
+## 🛡️ Functional Safety (ISO 26262)
+
+This repository also includes a dedicated chapter on functional safety:
+
+- [functional_safety](./functional_safety.md)
+
+### 📘 functional_safety.md walkthrough
+
+Battery Management Systems (BMS) are **safety‑critical components** in electric vehicles.  
+A failure in voltage, temperature, or current monitoring can lead to:
+
+- Thermal runaway  
+- Fire hazards  
+- Loss of vehicle control  
+- High‑voltage safety risks  
+
+Because of this, BMS functions must comply with **ISO 26262** and typically reach **ASIL‑C**, with some functions (e.g., contactor control, isolation monitoring) reaching **ASIL‑D**.
+
+This chapter explains:
+
+- How functional safety is achieved in BMS  
+- Why BMS functions are classified as ASIL‑B / ASIL‑C / ASIL‑D  
+- Safety mechanisms such as redundancy, diagnostics, watchdogs, and safe‑state logic  
+- How MCUs like PSOC™ HVPA‑SPM support ISO 26262  
+- FMEDA, HARA, SPFM, LFM, and other safety metrics  
+- Fault tree analysis for thermal runaway  
+
 ---
 
 ## 🔧 Advanced BMS Components
@@ -91,4 +120,8 @@ They show how modern EV battery systems are built using:
 - Functional safety architectures  
 
 These files make the repository **practical**, **industry‑relevant**, and **aligned with real automotive BMS design**.
+
+> **Note:** This repository is currently under active development.  
+> Several chapters are still in progress. More examples and content will be added, and once the base version is complete, the project will be opened for collaboration.
+
 
